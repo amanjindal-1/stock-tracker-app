@@ -10,7 +10,7 @@ const Header = () => {
             <div className="container header-wrapper">
                 <Link href='/'>
                     <Image src='/assets/icons/logo.svg' alt="Stock Logo" width={140} height={32}
-                           className='h-8 w-auto cursor-pointer'/>
+                           className='h-8 w-auto cursor-pointer' priority />
                 </Link>
                 <nav className='hidden sm:block'>
                     {/*nav items*/}
