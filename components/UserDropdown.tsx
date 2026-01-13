@@ -26,7 +26,7 @@ const UserDropdown = () => {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger>
-                <Button variant='ghost' className='flex items-center gap-3 text-gray-400 hover:text-yellow-500'>
+                <div className='hover:bg-accent h-9 px-4 py-2 has-[>svg]:px-3 rounded-md dark:hover:bg-accent/50 flex items-center gap-3 text-gray-400 hover:text-yellow-500'>
                     <Avatar className='h-8 w-8'>
                         <AvatarImage src="https://github.com/shadcn.png"/>
                         <AvatarFallback className='bg-yellow-500 text-yellow-900 text-sm font-bold'>
@@ -38,7 +38,7 @@ const UserDropdown = () => {
                             {user.name}
                         </span>
                     </div>
-                </Button>
+                </div>
             </DropdownMenuTrigger>
             <DropdownMenuContent className='text-gray-400'>
                 <DropdownMenuLabel>
